@@ -11,7 +11,10 @@ import SwiftUI
 struct HEICConverterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .frame(width: 850, height: 750)
         }
+        .windowToolbarLabelStyle(fixed: .titleOnly)
+        .windowResizability(.contentSize)
     }
 }
