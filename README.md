@@ -18,7 +18,7 @@ A native macOS app for batch converting HEIC images to JPEG — fast, private, a
 - **100% offline** — no internet connection, no cloud upload, no tracking
 - **App Sandbox** — sandboxed with user-selected file access only
 
-## Download
+# Download
 
 Grab the latest `.dmg` from the [Releases](../../releases) page.
 
@@ -27,7 +27,7 @@ Grab the latest `.dmg` from the [Releases](../../releases) page.
 >
 > Or via Terminal:
 > ```bash
-> sudo xattr -rd com.apple.quarantine "/Applications/HEIC to JPEG Converter.app"
+> sudo xattr -rd com.apple.quarantine "/Applications/HEICConverter.app"
 > ```
 
 ## Building from Source
